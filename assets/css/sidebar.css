@@ -1,0 +1,13 @@
+.sidebar {
+  color: black;
+  height: 100%;
+  width: 300px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  background: white;
+}
+
+.sidebar-container {
+  color: unset;
+}

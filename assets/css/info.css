@@ -1,0 +1,9 @@
+.fab {
+  color: grey;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.fab:hover {
+  color: lightgrey;
+}

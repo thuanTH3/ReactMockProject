@@ -1,0 +1,6 @@
+.sign-out {
+  position: fixed;
+  bottom: 0;
+  transform: translateX(40px);
+  z-index: 5;
+}

@@ -1,0 +1,29 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500vh;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  transform: translate(-35%);
+  z-index: 3;
+  overflow: hidden;
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 4;
+  overflow: hidden;
+}
+
+.close-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

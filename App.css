@@ -1,0 +1,29 @@
+/* Global css */
+body, html {
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+* {
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.container > .container-wrap {
+  display: flex;
+  box-shadow: 5px 10px 18px #999999;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  background-image: url('/assets/images/pic.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-left: 300px;
+  background-attachment: fixed;
+}
